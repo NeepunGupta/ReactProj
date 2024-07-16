@@ -57,6 +57,7 @@ MIDDLEWARE = [
 REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES':['rest_framework.permissions.AllowAny']}
 
 CORS_ORIGIN_ALLOW_ALL = True
+ALLOWED_HOSTS = ['34.220.168.29']
 
 ROOT_URLCONF = 'websiteRT.urls'
 
