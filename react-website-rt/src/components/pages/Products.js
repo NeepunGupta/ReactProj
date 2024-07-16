@@ -7,7 +7,7 @@ class Products extends React.Component {
 
     componentDidMount() {
         let data;
-        axios.get('http://localhost:8000')
+        axios.get('http://34.220.168.29:80')
             .then(res=> {
                 data = res.data;
                 this.setState({
