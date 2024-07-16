@@ -1,6 +1,8 @@
 import React from "react";
 import '../../App.css';
 import axios from 'axios';
+import '../forms/ProductForm';
+import ProductForm from "../forms/ProductForm";
 
 class Products extends React.Component { 
     state = {details: [], }
@@ -29,6 +31,7 @@ class Products extends React.Component {
                         </div>
                     </div>
                 ))}
+                <ProductForm></ProductForm>
             </div>
         )
     }
