@@ -10,7 +10,7 @@ const ProductForm = () => {
   
       event.preventDefault();
   
-      axios.post('http://52.89.6.101:80', { product })
+      axios.post('http://34.221.226.23:8000', { product })
   
         .then(res => {
   
